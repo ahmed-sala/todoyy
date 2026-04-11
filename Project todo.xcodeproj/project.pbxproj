@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		6D285BC42F84E4140035B6E6 /* Project todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD876892F863D3F00DDAC05 /* Project todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project todo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		6D285BDB2F84E4160035B6E6 /* Exceptions for "Project todo" folder in "Project todo" target */ = {
+		6DDCF5E52F84FB870082D368 /* Exceptions for "Project todo" folder in "Project todo" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,10 +21,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6D285BC62F84E4140035B6E6 /* Project todo */ = {
+		6DDCF5DB2F84FB870082D368 /* Project todo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				6D285BDB2F84E4160035B6E6 /* Exceptions for "Project todo" folder in "Project todo" target */,
+				6DDCF5E52F84FB870082D368 /* Exceptions for "Project todo" folder in "Project todo" target */,
 			);
 			path = "Project todo";
 			sourceTree = "<group>";
@@ -45,17 +45,9 @@
 		6D285BBB2F84E4140035B6E6 = {
 			isa = PBXGroup;
 			children = (
-				6D285BC62F84E4140035B6E6 /* Project todo */,
-				6D285BC52F84E4140035B6E6 /* Products */,
+				6DDCF5DB2F84FB870082D368 /* Project todo */,
+				6DD876892F863D3F00DDAC05 /* Project todo.app */,
 			);
-			sourceTree = "<group>";
-		};
-		6D285BC52F84E4140035B6E6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6D285BC42F84E4140035B6E6 /* Project todo.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,13 +66,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				6D285BC62F84E4140035B6E6 /* Project todo */,
+				6DDCF5DB2F84FB870082D368 /* Project todo */,
 			);
 			name = "Project todo";
 			packageProductDependencies = (
 			);
 			productName = "Project todo";
-			productReference = 6D285BC42F84E4140035B6E6 /* Project todo.app */;
+			productReference = 6DD876892F863D3F00DDAC05 /* Project todo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +99,7 @@
 			mainGroup = 6D285BBB2F84E4140035B6E6;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 6D285BC52F84E4140035B6E6 /* Products */;
+			productRefGroup = 6D285BBB2F84E4140035B6E6;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
