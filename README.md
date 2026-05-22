@@ -135,16 +135,4 @@ Project todo.xcodeproj/
 - Use the **segmented control** to filter by status or view tasks grouped by priority.
 - Use the **search bar** to find tasks by title or description.
 
----
 
-## 📌 Notes & Observations
-
-- **Persistence uses `NSUserDefaults`, not Core Data.** A Core Data model (`todo.xcdatamodeld`) exists in the project but is **not wired into the code** — all data goes through `TodoManager` → `NSUserDefaults`. It could be migrated to Core Data in the future.
-- In `TodoItem.toDictionary`, the `reminderDate` value is currently serialized from `self.date` rather than `self.reminderDate` — worth noting if you build on the reminder feature.
-- `TodoTableViewCell` is declared and registered but the list is rendered with `NewTableTableViewCell`; it can likely be removed.
-
----
-
-## 📄 License
-
-No license file is currently included in the repository. Add one (e.g. MIT) if you intend to share or open‑source this project.
